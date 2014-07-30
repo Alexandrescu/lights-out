@@ -8,3 +8,5 @@ As it stands this is going to work as a PrefPane that will allow users to input 
 If you'd like to help out, clone the repository, make some changes and issue a pull request.
 
 This doesnt' work yet - please don't try to build and install the prefPane yourself unless you're contributing to the project. I'll release just the prefPane for easy install when it's ready.
+
+I'll post updates on Twitter - [@rheotron](http://twitter.com/rheotron).
