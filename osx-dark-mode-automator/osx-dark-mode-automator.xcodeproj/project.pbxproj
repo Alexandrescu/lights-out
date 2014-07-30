@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324D27991989163C00C15DF0 /* osx_dark_mode_automator.h in Headers */ = {isa = PBXBuildFile; fileRef = 324D27981989163C00C15DF0 /* osx_dark_mode_automator.h */; };
+		324D279B1989163C00C15DF0 /* osx_dark_mode_automator.m in Sources */ = {isa = PBXBuildFile; fileRef = 324D279A1989163C00C15DF0 /* osx_dark_mode_automator.m */; };
+		324D279D1989163C00C15DF0 /* osx_dark_mode_automator.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 324D279C1989163C00C15DF0 /* osx_dark_mode_automator.tiff */; };
+		324D27A01989163C00C15DF0 /* osx_dark_mode_automator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324D279E1989163C00C15DF0 /* osx_dark_mode_automator.xib */; };
+		324D27A8198917DB00C15DF0 /* MainWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 324D27A6198917DB00C15DF0 /* MainWindow.h */; };
+		324D27A9198917DB00C15DF0 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 324D27A7198917DB00C15DF0 /* MainWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324D27931989163C00C15DF0 /* osx-dark-mode-automator.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-dark-mode-automator.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		324D27971989163C00C15DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324D27981989163C00C15DF0 /* osx_dark_mode_automator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osx_dark_mode_automator.h; sourceTree = "<group>"; };
+		324D279A1989163C00C15DF0 /* osx_dark_mode_automator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osx_dark_mode_automator.m; sourceTree = "<group>"; };
+		324D279C1989163C00C15DF0 /* osx_dark_mode_automator.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = osx_dark_mode_automator.tiff; sourceTree = "<group>"; };
+		324D279F1989163C00C15DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/osx_dark_mode_automator.xib; sourceTree = "<group>"; };
+		324D27A6198917DB00C15DF0 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		324D27A7198917DB00C15DF0 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324D278F1989163C00C15DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324D27891989163C00C15DF0 = {
+			isa = PBXGroup;
+			children = (
+				324D27951989163C00C15DF0 /* osx-dark-mode-automator */,
+				324D27941989163C00C15DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324D27941989163C00C15DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324D27931989163C00C15DF0 /* osx-dark-mode-automator.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324D27951989163C00C15DF0 /* osx-dark-mode-automator */ = {
+			isa = PBXGroup;
+			children = (
+				324D27981989163C00C15DF0 /* osx_dark_mode_automator.h */,
+				324D279A1989163C00C15DF0 /* osx_dark_mode_automator.m */,
+				324D279C1989163C00C15DF0 /* osx_dark_mode_automator.tiff */,
+				324D279E1989163C00C15DF0 /* osx_dark_mode_automator.xib */,
+				324D27A6198917DB00C15DF0 /* MainWindow.h */,
+				324D27A7198917DB00C15DF0 /* MainWindow.m */,
+				324D27961989163C00C15DF0 /* Supporting Files */,
+			);
+			path = "osx-dark-mode-automator";
+			sourceTree = "<group>";
+		};
+		324D27961989163C00C15DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324D27971989163C00C15DF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		324D27901989163C00C15DF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D27991989163C00C15DF0 /* osx_dark_mode_automator.h in Headers */,
+				324D27A8198917DB00C15DF0 /* MainWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		324D27921989163C00C15DF0 /* osx-dark-mode-automator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324D27A31989163C00C15DF0 /* Build configuration list for PBXNativeTarget "osx-dark-mode-automator" */;
+			buildPhases = (
+				324D278E1989163C00C15DF0 /* Sources */,
+				324D278F1989163C00C15DF0 /* Frameworks */,
+				324D27901989163C00C15DF0 /* Headers */,
+				324D27911989163C00C15DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osx-dark-mode-automator";
+			productName = "osx-dark-mode-automator";
+			productReference = 324D27931989163C00C15DF0 /* osx-dark-mode-automator.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324D278A1989163C00C15DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Samuel Turner";
+				TargetAttributes = {
+					324D27921989163C00C15DF0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 324D278D1989163C00C15DF0 /* Build configuration list for PBXProject "osx-dark-mode-automator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324D27891989163C00C15DF0;
+			productRefGroup = 324D27941989163C00C15DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324D27921989163C00C15DF0 /* osx-dark-mode-automator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324D27911989163C00C15DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D27A01989163C00C15DF0 /* osx_dark_mode_automator.xib in Resources */,
+				324D279D1989163C00C15DF0 /* osx_dark_mode_automator.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324D278E1989163C00C15DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D27A9198917DB00C15DF0 /* MainWindow.m in Sources */,
+				324D279B1989163C00C15DF0 /* osx_dark_mode_automator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		324D279E1989163C00C15DF0 /* osx_dark_mode_automator.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324D279F1989163C00C15DF0 /* Base */,
+			);
+			name = osx_dark_mode_automator.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324D27A11989163C00C15DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		324D27A21989163C00C15DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		324D27A41989163C00C15DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-dark-mode-automator/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		324D27A51989163C00C15DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "osx-dark-mode-automator/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324D278D1989163C00C15DF0 /* Build configuration list for PBXProject "osx-dark-mode-automator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D27A11989163C00C15DF0 /* Debug */,
+				324D27A21989163C00C15DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324D27A31989163C00C15DF0 /* Build configuration list for PBXNativeTarget "osx-dark-mode-automator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D27A41989163C00C15DF0 /* Debug */,
+				324D27A51989163C00C15DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324D278A1989163C00C15DF0 /* Project object */;
+}
