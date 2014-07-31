@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:osx-dark-mode-automator.xcodeproj">
+      location = "self:lights-out.xcodeproj">
    </FileRef>
 </Workspace>

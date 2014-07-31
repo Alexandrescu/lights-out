@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEE26DF8-5934-4044-AA03-336171153406</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lights-out</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D5A9B847-0580-49A6-85E9-283FDE7C9E8B</key>
+		<string>https://github.com/samturner/osx-dark-theme-automator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lights-out/lights-out.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D5A9B847-0580-49A6-85E9-283FDE7C9E8B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samturner/osx-dark-theme-automator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5A9B847-0580-49A6-85E9-283FDE7C9E8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5A9B847-0580-49A6-85E9-283FDE7C9E8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>osx-dark-theme-automator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

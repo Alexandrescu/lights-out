@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>osx-dark-mode-automator.xcscheme</key>
+		<key>lights-out.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>324D27921989163C00C15DF0</key>
+		<key>329B512A198A5C46008E388F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
