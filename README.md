@@ -33,4 +33,4 @@ Support this project and others by me via gittip.
 
 Copyright (c) 2014 Sam Turner
 
-Licensed under the MIT license.
+Licensed under the [GPL License](http://choosealicense.com/licenses/gpl-2.0/).
