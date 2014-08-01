@@ -13,7 +13,6 @@
 - Efficient process to check the time and update. Uses less than 0.1% CPU and has no impact on battery life.
 
 ### Coming Soon...
-- Fancy UI and pretty icons.
 - Use your location to determine sunrise and sunset times and use these to change the theme.
 
 If you want to keep up to date I'll post about the project regularly on Twitter - [@rheotron](http://twitter.com/rheotron).
