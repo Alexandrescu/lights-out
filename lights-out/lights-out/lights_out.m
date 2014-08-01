@@ -35,7 +35,7 @@ int count = 0;
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    [_debugLabel setStringValue:[NSString stringWithFormat:@"Daemon is %@", [self checkDaemonStatus]]];
+    [_debugLabel setStringValue:[NSString stringWithFormat:@"Service is %@", [self checkDaemonStatus]]];
     
     int darkHour = [[defaults objectForKey:@"darkHour"] intValue];
     darkHour = darkHour -12;
@@ -44,10 +44,14 @@ int count = 0;
     [_lightHour setStringValue:[defaults objectForKey:@"lightHour"]];
     
     if ([[self checkDaemonStatus] isEqualToString:@"stopped"]) {
-        [_toggleButton setTitle:@"Start Daemon"];
+        _darkHour.enabled = YES;
+        _lightHour.enabled = YES;
+        [_toggleButton setTitle:@"Start Service"];
         [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.88 green:0.3 blue:0.26 alpha:1.0]];
     } else if ([[self checkDaemonStatus] isEqualToString:@"running"]) {
-        [_toggleButton setTitle:@"Stop Daemon"];
+        _darkHour.enabled = NO;
+        _lightHour.enabled = NO;
+        [_toggleButton setTitle:@"Stop Service"];
         [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.28 green:0.79 blue:0.47 alpha:1.0]];
     }
 }
@@ -72,6 +76,7 @@ int count = 0;
 - (IBAction)toggle:(id)sender {    
     // Toggle the daemon
     if ([[self checkDaemonStatus] isEqualToString:@"stopped"]) {
+        [self saveInformation];
         [_daemonController start];
         [self setDaemonStatus:@"running"];
     } else if ([[self checkDaemonStatus] isEqualToString:@"running"]) {
@@ -82,7 +87,7 @@ int count = 0;
     [self updateLabels];
 }
 
-- (IBAction)saveSettings:(id)sender {
+- (void) saveInformation {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     NSInteger dh = [_darkHour intValue];
@@ -100,6 +105,8 @@ int count = 0;
                                         [defaults objectForKey:@"lightHour"],
                                         [defaults objectForKey:@"darkHour"],
                                         nil];
+    
+    // Restart if the arguments change
     [self updateLabels];
 }
 

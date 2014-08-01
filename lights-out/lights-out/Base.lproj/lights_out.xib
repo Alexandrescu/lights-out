@@ -10,7 +10,6 @@
                 <outlet property="darkHour" destination="32Z-ay-4YH" id="qhU-9V-Z77"/>
                 <outlet property="debugLabel" destination="bBM-4r-IgH" id="jCm-Wf-1P1"/>
                 <outlet property="lightHour" destination="VXL-ct-ozj" id="2Db-DI-kIr"/>
-                <outlet property="toggle" destination="7kb-CD-rRC" id="3g1-h2-Oqp"/>
                 <outlet property="toggleButton" destination="7kb-CD-rRC" id="aQZ-HA-ahY"/>
             </connections>
         </customObject>
@@ -19,14 +18,14 @@
         <window title="Lights Out" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" deferred="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" userLabel="PrefPane">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="176" y="715" width="442" height="178"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <rect key="contentRect" x="176" y="715" width="442" height="144"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="442" height="178"/>
+                <rect key="frame" x="0.0" y="0.0" width="442" height="144"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hqi-xq-TVe">
-                        <rect key="frame" x="146" y="139" width="218" height="17"/>
+                        <rect key="frame" x="146" y="105" width="218" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Is when I want the lights to turn off" id="LVp-dM-gh7">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -34,7 +33,7 @@
                         </textFieldCell>
                     </textField>
                     <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vCW-zT-suh">
-                        <rect key="frame" x="146" y="108" width="218" height="17"/>
+                        <rect key="frame" x="146" y="74" width="218" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Is when I want the lights to turn on" id="aYj-Gq-59W">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -42,7 +41,7 @@
                         </textFieldCell>
                     </textField>
                     <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXL-ct-ozj">
-                        <rect key="frame" x="81" y="108" width="30" height="22"/>
+                        <rect key="frame" x="81" y="74" width="30" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="7" drawsBackground="YES" id="GLa-Uf-KRt">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -50,25 +49,15 @@
                         </textFieldCell>
                     </textField>
                     <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pY1-JB-3D8">
-                        <rect key="frame" x="117" y="110" width="25" height="17"/>
+                        <rect key="frame" x="117" y="76" width="25" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="AM" id="KzZ-fN-K5Z">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7eK-08-tEa">
-                        <rect key="frame" x="159" y="67" width="125" height="32"/>
-                        <buttonCell key="cell" type="push" title="Save Settings" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LsP-Ud-WNH">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="saveSettings:" target="-2" id="y6F-Up-Oym"/>
-                        </connections>
-                    </button>
                     <textField appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32Z-ay-4YH">
-                        <rect key="frame" x="81" y="139" width="30" height="22"/>
+                        <rect key="frame" x="81" y="105" width="30" height="22"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="5" drawsBackground="YES" id="1wq-YD-dXM">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -76,7 +65,7 @@
                         </textFieldCell>
                     </textField>
                     <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CgS-fG-9Nm">
-                        <rect key="frame" x="117" y="141" width="25" height="17"/>
+                        <rect key="frame" x="117" y="107" width="25" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PM" id="gpj-Ka-DJ9">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -90,7 +79,7 @@
                         <font key="titleFont" metaFont="system"/>
                     </box>
                     <button appearanceType="aqua" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7kb-CD-rRC">
-                        <rect key="frame" x="47" y="13" width="125" height="32"/>
+                        <rect key="frame" x="14" y="13" width="125" height="32"/>
                         <buttonCell key="cell" type="push" title="Toggle Service" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bCx-vq-Z1c">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -100,16 +89,23 @@
                         </connections>
                     </button>
                     <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBM-4r-IgH">
-                        <rect key="frame" x="179" y="20" width="213" height="17"/>
+                        <rect key="frame" x="146" y="20" width="213" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Debug " id="9df-SU-ued">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="plv-4N-U08">
+                        <rect key="frame" x="398" y="20" width="24" height="24"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="lights-out-icon" id="rdl-BO-4E1"/>
+                    </imageView>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="181" y="566"/>
+            <point key="canvasLocation" x="181" y="549"/>
         </window>
     </objects>
+    <resources>
+        <image name="lights-out-icon" width="1000" height="1000"/>
+    </resources>
 </document>

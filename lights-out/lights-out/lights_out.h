@@ -14,17 +14,14 @@
 @property (strong, nonatomic) FFYDaemonController *daemonController;
 
 @property (weak) IBOutlet NSTextField *debugLabel;
-
 @property (weak) IBOutlet NSTextField *darkHour;
-
 @property (weak) IBOutlet NSTextField *lightHour;
-
 @property (weak) IBOutlet NSButton *toggleButton;
 
 - (void)mainViewDidLoad;
+- (void) saveInformation;
 
 - (IBAction)toggle:(id)sender;
-- (IBAction)saveSettings:(id)sender;
 
 
 @end
