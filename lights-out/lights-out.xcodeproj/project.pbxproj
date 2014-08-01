@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3235C9BE198B2E0A00F56048 /* lights_out.tiff */; };
 		329B512F198A5C46008E388F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B512E198A5C46008E388F /* Cocoa.framework */; };
 		329B5131198A5C46008E388F /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B5130198A5C46008E388F /* PreferencePanes.framework */; };
 		329B513B198A5C46008E388F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 329B5139198A5C46008E388F /* InfoPlist.strings */; };
 		329B513F198A5C46008E388F /* lights_out.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B513E198A5C46008E388F /* lights_out.m */; };
-		329B5141198A5C46008E388F /* lights_out.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 329B5140198A5C46008E388F /* lights_out.tiff */; };
 		329B5144198A5C46008E388F /* lights_out.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329B5142198A5C46008E388F /* lights_out.xib */; };
 		329E8B60198B0A7100CB0D00 /* FFYDaemonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 329E8B5E198B0A7100CB0D00 /* FFYDaemonController.h */; };
 		329E8B61198B0A7100CB0D00 /* FFYDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329E8B5F198B0A7100CB0D00 /* FFYDaemonController.m */; };
@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3235C9BE198B2E0A00F56048 /* lights_out.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lights_out.tiff; sourceTree = "<group>"; };
 		329B512B198A5C46008E388F /* lights-out.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lights-out.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
 		329B512E198A5C46008E388F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		329B5130198A5C46008E388F /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -30,7 +31,6 @@
 		329B513C198A5C46008E388F /* lights-out-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lights-out-Prefix.pch"; sourceTree = "<group>"; };
 		329B513D198A5C46008E388F /* lights_out.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lights_out.h; sourceTree = "<group>"; };
 		329B513E198A5C46008E388F /* lights_out.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lights_out.m; sourceTree = "<group>"; };
-		329B5140198A5C46008E388F /* lights_out.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lights_out.tiff; sourceTree = "<group>"; };
 		329B5143198A5C46008E388F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/lights_out.xib; sourceTree = "<group>"; };
 		329E8B5E198B0A7100CB0D00 /* FFYDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFYDaemonController.h; sourceTree = "<group>"; };
 		329E8B5F198B0A7100CB0D00 /* FFYDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFYDaemonController.m; sourceTree = "<group>"; };
@@ -91,10 +91,10 @@
 		329B5136198A5C46008E388F /* lights-out */ = {
 			isa = PBXGroup;
 			children = (
+				3235C9BE198B2E0A00F56048 /* lights_out.tiff */,
 				329E8B73198B8ED000CB0D00 /* lights-out-daemon */,
 				329B513D198A5C46008E388F /* lights_out.h */,
 				329B513E198A5C46008E388F /* lights_out.m */,
-				329B5140198A5C46008E388F /* lights_out.tiff */,
 				329B5142198A5C46008E388F /* lights_out.xib */,
 				329B5137198A5C46008E388F /* Supporting Files */,
 			);
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329B5141198A5C46008E388F /* lights_out.tiff in Resources */,
+				3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */,
 				329B5144198A5C46008E388F /* lights_out.xib in Resources */,
 				329E8B74198B8ED000CB0D00 /* lights-out-daemon in Resources */,
 				329B513B198A5C46008E388F /* InfoPlist.strings in Resources */,
