@@ -14,6 +14,7 @@
 
 ### Coming Soon...
 - Use your location to determine sunrise and sunset times and use these to change the theme.
+- Add a launchd service to make sure this runs at start up
 
 If you want to keep up to date I'll post about the project regularly on Twitter - [@rheotron](http://twitter.com/rheotron).
 
