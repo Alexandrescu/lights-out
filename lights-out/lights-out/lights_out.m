@@ -45,10 +45,10 @@ int count = 0;
     
     if ([[self checkDaemonStatus] isEqualToString:@"stopped"]) {
         [_toggleButton setTitle:@"Start Daemon"];
-        [_debugLabel setTextColor:[NSColor redColor]];
+        [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.88 green:0.3 blue:0.26 alpha:1.0]];
     } else if ([[self checkDaemonStatus] isEqualToString:@"running"]) {
         [_toggleButton setTitle:@"Stop Daemon"];
-        [_debugLabel setTextColor:[NSColor greenColor]];
+        [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.28 green:0.79 blue:0.47 alpha:1.0]];
     }
 }
 
@@ -57,7 +57,8 @@ int count = 0;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     if (![defaults objectForKey:@"daemonStatus"]) {
-        [defaults setObject:@"stopped" forKey:@"daemonStatus"];
+        [defaults setObject:@"running" forKey:@"daemonStatus"];
+        [_daemonController start];
     }
     
     return [defaults objectForKey:@"daemonStatus"];
