@@ -13,6 +13,9 @@
 		329B513F198A5C46008E388F /* lights_out.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B513E198A5C46008E388F /* lights_out.m */; };
 		329B5141198A5C46008E388F /* lights_out.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 329B5140198A5C46008E388F /* lights_out.tiff */; };
 		329B5144198A5C46008E388F /* lights_out.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329B5142198A5C46008E388F /* lights_out.xib */; };
+		329E8B60198B0A7100CB0D00 /* FFYDaemonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 329E8B5E198B0A7100CB0D00 /* FFYDaemonController.h */; };
+		329E8B61198B0A7100CB0D00 /* FFYDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329E8B5F198B0A7100CB0D00 /* FFYDaemonController.m */; };
+		329E8B74198B8ED000CB0D00 /* lights-out-daemon in Resources */ = {isa = PBXBuildFile; fileRef = 329E8B73198B8ED000CB0D00 /* lights-out-daemon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		329B513E198A5C46008E388F /* lights_out.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lights_out.m; sourceTree = "<group>"; };
 		329B5140198A5C46008E388F /* lights_out.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lights_out.tiff; sourceTree = "<group>"; };
 		329B5143198A5C46008E388F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/lights_out.xib; sourceTree = "<group>"; };
+		329E8B5E198B0A7100CB0D00 /* FFYDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFYDaemonController.h; sourceTree = "<group>"; };
+		329E8B5F198B0A7100CB0D00 /* FFYDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFYDaemonController.m; sourceTree = "<group>"; };
+		329E8B73198B8ED000CB0D00 /* lights-out-daemon */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "lights-out-daemon"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		329B512D198A5C46008E388F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				329E8B5D198B0A5600CB0D00 /* DaemonController */,
 				329B512E198A5C46008E388F /* Cocoa.framework */,
 				329B5130198A5C46008E388F /* PreferencePanes.framework */,
 				329B5132198A5C46008E388F /* Other Frameworks */,
@@ -84,6 +91,7 @@
 		329B5136198A5C46008E388F /* lights-out */ = {
 			isa = PBXGroup;
 			children = (
+				329E8B73198B8ED000CB0D00 /* lights-out-daemon */,
 				329B513D198A5C46008E388F /* lights_out.h */,
 				329B513E198A5C46008E388F /* lights_out.m */,
 				329B5140198A5C46008E388F /* lights_out.tiff */,
@@ -103,6 +111,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		329E8B5D198B0A5600CB0D00 /* DaemonController */ = {
+			isa = PBXGroup;
+			children = (
+				329E8B5E198B0A7100CB0D00 /* FFYDaemonController.h */,
+				329E8B5F198B0A7100CB0D00 /* FFYDaemonController.m */,
+			);
+			name = DaemonController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +127,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329E8B60198B0A7100CB0D00 /* FFYDaemonController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +187,7 @@
 			files = (
 				329B5141198A5C46008E388F /* lights_out.tiff in Resources */,
 				329B5144198A5C46008E388F /* lights_out.xib in Resources */,
+				329E8B74198B8ED000CB0D00 /* lights-out-daemon in Resources */,
 				329B513B198A5C46008E388F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				329B513F198A5C46008E388F /* lights_out.m in Sources */,
+				329E8B61198B0A7100CB0D00 /* FFYDaemonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 		329B5148198A5C46008E388F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lights-out/lights-out-Prefix.pch";
@@ -302,6 +323,7 @@
 		329B5149198A5C46008E388F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lights-out/lights-out-Prefix.pch";
@@ -331,6 +353,7 @@
 				329B5149198A5C46008E388F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

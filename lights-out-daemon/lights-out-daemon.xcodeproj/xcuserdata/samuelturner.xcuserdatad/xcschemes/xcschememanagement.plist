@@ -7,22 +7,12 @@
 		<key>lights-out-daemon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>lights-out.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>329B512A198A5C46008E388F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>329E8B42198AF5EB00CB0D00</key>
+		<key>329E8B52198B051F00CB0D00</key>
 		<dict>
 			<key>primary</key>
 			<true/>

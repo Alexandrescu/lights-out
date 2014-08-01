@@ -7,17 +7,19 @@
 //
 
 #import <PreferencePanes/PreferencePanes.h>
+#import "FFYDaemonController.h"
 
 @interface lights_out : NSPreferencePane
+
+@property (strong, nonatomic) FFYDaemonController *daemonController;
+
 @property (weak) IBOutlet NSTextField *debugLabel;
 
 @property (weak) IBOutlet NSTextField *darkHour;
-@property (weak) IBOutlet NSTextField *darkMinute;
-@property (weak) IBOutlet NSComboBox *darkPeriod;
 
 @property (weak) IBOutlet NSTextField *lightHour;
-@property (weak) IBOutlet NSTextField *lightMinute;
-@property (weak) IBOutlet NSComboBox *lightPeriod;
+
+@property (weak) IBOutlet NSButton *toggleButton;
 
 - (void)mainViewDidLoad;
 
