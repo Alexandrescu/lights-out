@@ -8,7 +8,7 @@
 ### Features
 - Enter the time of day you want the dark theme to turn on and turn off.
 - Lives in a simple PrefPane that doesn't clutter your menu bar or dock.
-- Better and more efficient process to check the time.
+- Efficient process to check the time and update. Uses less than 0.1% CPU and has no impact on battery life.
 
 ### Coming Soon...
 - Fancy UI and pretty icons.
