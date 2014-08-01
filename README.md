@@ -3,7 +3,7 @@
 
 [Lights Out](http://samturner.github.io/lights-out/) is a Preference Pane that automatically changes the OS X Yosemite to dark theme at night and light theme during the day.
 
-![Lights Out Screenshot](http://i.imgur.com/DjB6ZR0.png)
+![Lights Out Screenshot](http://i.imgur.com/8cgnrGQ.png)
 
 **This is a work in progress and doesn't work 100% just yet - please don't try to build and install the prefPane yourself unless you're contributing to the project. I'll release just the prefPane for easy install when it's ready.**
 
