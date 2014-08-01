@@ -8,18 +8,19 @@
 ### Features
 - Enter the time of day you want the dark theme to turn on and turn off.
 - Lives in a simple PrefPane that doesn't clutter your menu bar or dock.
-  
+- Better and more efficient process to check the time.
+
 ### Coming Soon...
 - Fancy UI and pretty icons.
 - Use your location to determine sunrise and sunset times and use these to change the theme.
-- Better and more efficient process to check the time (needs more investigation)
-
 
 If you want to keep up to date I'll post about the project regularly on Twitter - [@rheotron](http://twitter.com/rheotron).
 
 ## Contributing
 
 If you'd like to help out, clone the repository, make some changes and issue a pull request. If you come across any bugs or think of any features you would like, please create an issue and I'll look into it ASAP.
+
+There are two seperate project files: one for the actual PrefPane and one for the daemon that runs in the background to control the change of theme.
 
 ## Donating
 
