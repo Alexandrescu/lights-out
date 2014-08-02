@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322D6EE8198C6DD500E9964B /* lights-out.plist in Resources */ = {isa = PBXBuildFile; fileRef = 322D6EE7198C6DD500E9964B /* lights-out.plist */; };
 		3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3235C9BE198B2E0A00F56048 /* lights_out.tiff */; };
 		324C0E4F198BB13200CD2B18 /* lights-out-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 324C0E4E198BB13200CD2B18 /* lights-out-icon.png */; };
 		329B512F198A5C46008E388F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B512E198A5C46008E388F /* Cocoa.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322D6EE7198C6DD500E9964B /* lights-out.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lights-out.plist"; sourceTree = "<group>"; };
 		3235C9BE198B2E0A00F56048 /* lights_out.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lights_out.tiff; sourceTree = "<group>"; };
 		324C0E4E198BB13200CD2B18 /* lights-out-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lights-out-icon.png"; sourceTree = "<group>"; };
 		329B512B198A5C46008E388F /* lights-out.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lights-out.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 				329E8B73198B8ED000CB0D00 /* lights-out-daemon */,
 				329B513D198A5C46008E388F /* lights_out.h */,
 				329B513E198A5C46008E388F /* lights_out.m */,
+				322D6EE7198C6DD500E9964B /* lights-out.plist */,
 				329B5142198A5C46008E388F /* lights_out.xib */,
 				329B5137198A5C46008E388F /* Supporting Files */,
 			);
@@ -190,6 +193,7 @@
 			files = (
 				324C0E4F198BB13200CD2B18 /* lights-out-icon.png in Resources */,
 				3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */,
+				322D6EE8198C6DD500E9964B /* lights-out.plist in Resources */,
 				329B5144198A5C46008E388F /* lights_out.xib in Resources */,
 				329E8B74198B8ED000CB0D00 /* lights-out-daemon in Resources */,
 				329B513B198A5C46008E388F /* InfoPlist.strings in Resources */,

@@ -17,6 +17,7 @@
 @property (weak) IBOutlet NSTextField *darkHour;
 @property (weak) IBOutlet NSTextField *lightHour;
 @property (weak) IBOutlet NSButton *toggleButton;
+@property (weak) IBOutlet NSTextField *status;
 
 - (void)mainViewDidLoad;
 - (void) saveInformation;

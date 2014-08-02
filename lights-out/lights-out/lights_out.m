@@ -35,23 +35,23 @@ int count = 0;
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    [_debugLabel setStringValue:[NSString stringWithFormat:@"Service is %@", [self checkDaemonStatus]]];
-    
     int darkHour = [[defaults objectForKey:@"darkHour"] intValue];
     darkHour = darkHour -12;
     
     [_darkHour setStringValue:[NSString stringWithFormat:@"%d", darkHour]];
     [_lightHour setStringValue:[defaults objectForKey:@"lightHour"]];
     
-    if ([[self checkDaemonStatus] isEqualToString:@"stopped"]) {
+    if (![_daemonController running]) {
         _darkHour.enabled = YES;
         _lightHour.enabled = YES;
         [_toggleButton setTitle:@"Start Service"];
+        [_debugLabel setStringValue:[NSString stringWithFormat:@"Service is not running"]];
         [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.88 green:0.3 blue:0.26 alpha:1.0]];
-    } else if ([[self checkDaemonStatus] isEqualToString:@"running"]) {
+    } else if ([_daemonController running]) {
         _darkHour.enabled = NO;
         _lightHour.enabled = NO;
         [_toggleButton setTitle:@"Stop Service"];
+        [_debugLabel setStringValue:[NSString stringWithFormat:@"Service is running"]];
         [_debugLabel setTextColor:[NSColor colorWithCalibratedRed:0.28 green:0.79 blue:0.47 alpha:1.0]];
     }
 }
