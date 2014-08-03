@@ -27,7 +27,7 @@
 	<key>NSMainNibFile</key>
 	<string>lights_out</string>
 	<key>NSPrefPaneIconFile</key>
-	<string>lights-out-icon.png</string>
+	<string>lights-out-icon.tiff</string>
 	<key>NSPrefPaneIconLabel</key>
 	<string>Lights Out</string>
 	<key>NSPrincipalClass</key>

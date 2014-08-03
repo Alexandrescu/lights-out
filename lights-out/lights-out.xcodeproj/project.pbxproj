@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321CBA7F198DD14E00B81F7B /* lights-out-icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 321CBA7E198DD14E00B81F7B /* lights-out-icon.tiff */; };
 		322D6EE8198C6DD500E9964B /* lights-out.plist in Resources */ = {isa = PBXBuildFile; fileRef = 322D6EE7198C6DD500E9964B /* lights-out.plist */; };
-		3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3235C9BE198B2E0A00F56048 /* lights_out.tiff */; };
-		324C0E4F198BB13200CD2B18 /* lights-out-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 324C0E4E198BB13200CD2B18 /* lights-out-icon.png */; };
 		329B512F198A5C46008E388F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B512E198A5C46008E388F /* Cocoa.framework */; };
 		329B5131198A5C46008E388F /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329B5130198A5C46008E388F /* PreferencePanes.framework */; };
 		329B513B198A5C46008E388F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 329B5139198A5C46008E388F /* InfoPlist.strings */; };
@@ -21,9 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321CBA7E198DD14E00B81F7B /* lights-out-icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "lights-out-icon.tiff"; sourceTree = "<group>"; };
 		322D6EE7198C6DD500E9964B /* lights-out.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lights-out.plist"; sourceTree = "<group>"; };
-		3235C9BE198B2E0A00F56048 /* lights_out.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lights_out.tiff; sourceTree = "<group>"; };
-		324C0E4E198BB13200CD2B18 /* lights-out-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lights-out-icon.png"; sourceTree = "<group>"; };
 		329B512B198A5C46008E388F /* lights-out.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lights-out.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
 		329B512E198A5C46008E388F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		329B5130198A5C46008E388F /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -95,8 +93,7 @@
 		329B5136198A5C46008E388F /* lights-out */ = {
 			isa = PBXGroup;
 			children = (
-				324C0E4E198BB13200CD2B18 /* lights-out-icon.png */,
-				3235C9BE198B2E0A00F56048 /* lights_out.tiff */,
+				321CBA7E198DD14E00B81F7B /* lights-out-icon.tiff */,
 				329E8B73198B8ED000CB0D00 /* lights-out-daemon */,
 				329B513D198A5C46008E388F /* lights_out.h */,
 				329B513E198A5C46008E388F /* lights_out.m */,
@@ -191,9 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324C0E4F198BB13200CD2B18 /* lights-out-icon.png in Resources */,
-				3235C9BF198B2E0A00F56048 /* lights_out.tiff in Resources */,
 				322D6EE8198C6DD500E9964B /* lights-out.plist in Resources */,
+				321CBA7F198DD14E00B81F7B /* lights-out-icon.tiff in Resources */,
 				329B5144198A5C46008E388F /* lights_out.xib in Resources */,
 				329E8B74198B8ED000CB0D00 /* lights-out-daemon in Resources */,
 				329B513B198A5C46008E388F /* InfoPlist.strings in Resources */,

@@ -106,6 +106,6 @@
         </window>
     </objects>
     <resources>
-        <image name="lights-out-icon" width="1000" height="1000"/>
+        <image name="lights-out-icon" width="510" height="511"/>
     </resources>
 </document>
