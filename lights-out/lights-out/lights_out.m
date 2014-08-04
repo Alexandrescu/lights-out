@@ -81,6 +81,10 @@ int count = 0;
         [self setDaemonStatus:@"running"];
     } else if ([[self checkDaemonStatus] isEqualToString:@"running"]) {
         [_daemonController stop];
+        
+        CFPreferencesSetValue((CFStringRef)@"AppleInterfaceStyle", NULL, kCFPreferencesAnyApplication, kCFPreferencesCurrentUser, kCFPreferencesCurrentHost);
+        CFNotificationCenterPostNotification(CFNotificationCenterGetDistributedCenter(), (CFStringRef)@"AppleInterfaceThemeChangedNotification", NULL, NULL, YES);
+        
         [self setDaemonStatus:@"stopped"];
     }
     
