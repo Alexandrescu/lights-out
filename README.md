@@ -12,23 +12,16 @@
 
 ### Coming Soon...
 - Use your location to determine sunrise and sunset times and use these to change the theme.
-- Add a launchd service to make sure this runs at start up
+- Add a launchd service to make sure this runs at start up.
+- Rewrite the daemon structure so as to fix a number of bugs.
 
-If you want to keep up to date I'll post about the project regularly on Twitter - [@rheotron](http://twitter.com/rheotron). Also thanks to [iccir](https://github.com/iccir) for his help identifying the API Apple uses to do this.
+If you want to keep up to date I'll post about the project regularly on Twitter - [@rheotron](http://twitter.com/rheotron). Also thanks to [iccir](https://github.com/iccir) for his help identifying the API Apple uses to do this and making a bunch of helpful contributions.
 
 ## Contributing
 
 If you'd like to help out, clone the repository, make some changes and issue a pull request. If you come across any bugs or think of any features you would like, please create an issue and I'll look into it ASAP.
 
 There are two seperate project files: one for the actual PrefPane and one for the daemon that runs in the background to control the change of theme.
-
-## Donating
-
-Support this project and others by me via gittip.
-
-<a href="https://www.gittip.com/samturner/">
-  <img alt="Support via Gittip" src="https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png"/>
-</a>
 
 ## License
 
